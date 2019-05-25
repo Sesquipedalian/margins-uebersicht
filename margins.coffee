@@ -25,7 +25,7 @@ css: (dock_side, dock_margin, w_subtract, h_subtract) ->
 	return """
 
 /* The main Übersicht container */
-#__uebersicht {
+#__uebersicht, #uebersicht {
 
 	/* Nudge all widgets away from the edges of the display */
 	margin: #{static_margin}px;
